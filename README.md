@@ -172,8 +172,9 @@ Modify Block 1 and instantly observe Block 2 become invalid, demonstrating how b
 </p>
 
 <p align="center">
-  <img src="https://cdn.corenexis.com/f/WvtUg5MgAuc.png" width="48%" />
   <img src="https://cdn.corenexis.com/f/Z1oVCbW6SKY.png" width="48%" />
+  <img src="https://cdn.corenexis.com/f/WvtUg5MgAuc.png" width="48%" />
+  
 </p>
 
 <p align="center">
