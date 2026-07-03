@@ -5,7 +5,7 @@
 ### **Your Interactive Guide to Blockchain, Ethereum & Web3**
 
 <p align="center">
-<img src="./public/banner.png" alt="BLOCK ATLAS Banner"/>
+<img src="https://chatgpt.com/s/m_6a47a165e6948191ab0d31a72a5cbcc2" alt="BLOCK ATLAS Banner"/>
 </p>
 
 *A premium educational platform for learning Blockchain through interactive visualizations, live cryptocurrency data, and hands-on mining simulations.*
