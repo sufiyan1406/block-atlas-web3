@@ -1,121 +1,449 @@
-# Web3 Explorer
+<div align="center">
 
-A production-ready, interactive blockchain education platform built with React, Vite, and Tailwind CSS. Features a modern **Digital Brutalist** design language with massive typography, strong grid layouts, and high-contrast aesthetics.
+# ⛓️ BLOCK ATLAS
 
-## Features
+### **Your Interactive Guide to Blockchain, Ethereum & Web3**
 
-- **Home** — Hero section explaining blockchain with animated illustration, Layer 2 (Arbitrum) education, and feature cards
-- **Concepts** — Side-by-side comparison panels: Web2 vs Web3, Bitcoin vs Ethereum, Public vs Private Keys, Blockchain vs Traditional Database
-- **Live Prices** — Real-time cryptocurrency prices (BTC, ETH, SOL, ARB, MATIC) from the CoinGecko API with loading skeletons and error handling
-- **Block Simulator** — Interactive SHA-256 mining simulation with two linked blocks demonstrating proof of work and chain immutability
+<p align="center">
+<img src="./public/banner.png" alt="BLOCK ATLAS Banner"/>
+</p>
 
-## Tech Stack
+*A premium educational platform for learning Blockchain through interactive visualizations, live cryptocurrency data, and hands-on mining simulations.*
 
-| Technology        | Purpose                  |
-| ----------------- | ------------------------ |
-| React 19          | UI framework             |
-| Vite              | Build tool & dev server  |
-| React Router DOM  | Client-side routing      |
-| Tailwind CSS v4   | Utility-first styling    |
-| Lucide React      | Icon library             |
-| Web Crypto API    | SHA-256 hashing          |
-| Fetch API         | HTTP requests            |
-| CoinGecko API     | Live crypto prices       |
+<br>
 
-## Installation
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
+![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4-06B6D4?style=for-the-badge&logo=tailwindcss)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript)
+![Web3](https://img.shields.io/badge/Web3-Education-blueviolet?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
+
+<br>
+
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Website-blue?style=for-the-badge)](https://YOUR_VERCEL_LINK.vercel.app)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/YOUR_USERNAME/block-atlas)
+
+</div>
+
+---
+
+# 📖 About
+
+**BLOCK ATLAS** is a modern educational platform designed to simplify the concepts of **Blockchain**, **Bitcoin**, **Ethereum**, **Layer 2**, **Arbitrum**, and **Web3**.
+
+Instead of reading lengthy documentation, users learn through interactive visualizations, real-time market data, and a hands-on blockchain simulator.
+
+Whether you're a beginner or a developer exploring Web3, BLOCK ATLAS helps you understand complex topics in an intuitive and engaging way.
+
+---
+
+# ✨ Features
+
+## 🏠 Home
+
+- Interactive Hero Section
+- Blockchain Introduction
+- Ethereum Explained
+- Layer 2 & Arbitrum Overview
+- Animated Blockchain Illustration
+- Responsive Brutalist Design
+
+---
+
+## 📚 Concepts
+
+Visual comparison panels covering:
+
+- 🌐 Web2 vs Web3
+- ₿ Bitcoin vs Ethereum
+- 🔐 Public Key vs Private Key
+- 🗄 Blockchain vs Traditional Database
+
+Each concept includes:
+
+- Visual comparisons
+- Simple explanations
+- Real-world examples
+- Educational insights
+
+---
+
+## 📈 Live Crypto Prices
+
+Real-time cryptocurrency dashboard powered by CoinGecko.
+
+Supported Coins
+
+- Bitcoin
+- Ethereum
+- Solana
+- Arbitrum
+- Polygon
+
+Features
+
+- Live USD Prices
+- 24 Hour Price Change
+- Refresh Button
+- Loading Skeleton
+- Error Handling
+- Responsive Cards
+
+---
+
+## ⛏️ Block Simulator
+
+Interactive blockchain mining simulator demonstrating
+
+- SHA-256 Hashing
+- Proof of Work
+- Nonce
+- Mining Process
+- Chain Validation
+- Blockchain Immutability
+
+Modify Block 1 and instantly observe Block 2 become invalid, demonstrating how blockchain integrity works.
+
+---
+
+# 📸 Screenshots
+
+## 🏠 Home
+
+![Home](./screenshots/home.png)
+
+---
+
+## 📚 Concepts
+
+![Concepts](./screenshots/concepts.png)
+
+---
+
+## 📈 Live Prices
+
+![Live Prices](./screenshots/prices.png)
+
+---
+
+## ⛏️ Block Simulator
+
+![Simulator](./screenshots/simulator.png)
+
+---
+
+# 🎥 Demo
+
+> Replace with your GIF later.
+
+```text
+demo.gif
+```
+
+---
+
+# 🛠 Tech Stack
+
+| Category | Technology |
+|-----------|------------|
+| Frontend | React 19 |
+| Styling | Tailwind CSS v4 |
+| Routing | React Router DOM |
+| Build Tool | Vite |
+| Icons | Lucide React |
+| Cryptography | Web Crypto API |
+| HTTP Client | Fetch API |
+| API | CoinGecko |
+| Language | JavaScript |
+
+---
+
+# 🏗 Project Architecture
+
+```text
+                 User
+                   │
+                   ▼
+          React + React Router
+                   │
+     ┌─────────────┼─────────────┐
+     ▼             ▼             ▼
+ Concepts     Live Prices     Simulator
+                   │
+          CoinGecko API
+                   │
+             Fetch API
+                   │
+              React Hooks
+                   │
+            Reusable Components
+```
+
+---
+
+# 📂 Folder Structure
+
+```text
+src/
+│
+├── assets/
+│
+├── components/
+│   ├── Block.jsx
+│   ├── BlockchainIllustration.jsx
+│   ├── Button.jsx
+│   ├── ComparisonCard.jsx
+│   ├── CryptoCard.jsx
+│   ├── FeatureCard.jsx
+│   ├── Footer.jsx
+│   └── Navbar.jsx
+│
+├── hooks/
+│   ├── useCryptoPrices.js
+│   └── useScrollReveal.js
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── Concepts.jsx
+│   ├── LivePrices.jsx
+│   └── Simulator.jsx
+│
+├── utils/
+│   ├── crypto.js
+│   └── format.js
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+# 🚀 Getting Started
+
+Clone the repository
 
 ```bash
-# Clone the repository
-git clone <repo-url>
-cd WEB3
+git clone https://github.com/YOUR_USERNAME/block-atlas.git
+```
 
-# Install dependencies
+Navigate into the project
+
+```bash
+cd block-atlas
+```
+
+Install dependencies
+
+```bash
 npm install
+```
 
-# Start development server
+Run locally
+
+```bash
 npm run dev
 ```
 
-The app will be available at `http://localhost:5173`.
-
-## Folder Structure
+Visit
 
 ```
-src/
-├── components/           # Reusable UI components
-│   ├── Block.jsx         # Interactive mining block
-│   ├── BlockchainIllustration.jsx  # Animated hero illustration
-│   ├── Button.jsx        # Brutalist button (link/button variants)
-│   ├── ComparisonCard.jsx# Side-by-side comparison panel
-│   ├── CryptoCard.jsx    # Live price card + skeleton
-│   ├── FeatureCard.jsx   # Feature showcase card
-│   ├── Footer.jsx        # Site footer
-│   └── Navbar.jsx        # Sticky navigation bar
-├── hooks/                # Custom React hooks
-│   ├── useCryptoPrices.js# CoinGecko API data fetching
-│   └── useScrollReveal.js# IntersectionObserver scroll animation
-├── pages/                # Route-level page components
-│   ├── Home.jsx          # Landing page
-│   ├── Concepts.jsx      # Web3 fundamentals
-│   ├── LivePrices.jsx    # Real-time crypto prices
-│   └── Simulator.jsx     # Block mining simulator
-├── utils/                # Utility functions
-│   ├── crypto.js         # SHA-256 hashing & mining
-│   └── format.js         # Price, hash, time formatting
-├── App.jsx               # Root component with routing
-├── main.jsx              # Application entry point
-└── index.css             # Global styles & design tokens
+http://localhost:5173
 ```
 
-## Environment Variables
+---
 
-This project requires a CoinGecko API key to fetch live cryptocurrency prices.
-Create a `.env` file in the root of the project (or copy from `.env.example`):
+# 🔑 Environment Variables
+
+Create a `.env` file.
 
 ```env
-VITE_COINGECKO_API_KEY=your_key_here
+VITE_COINGECKO_API_KEY=your_api_key_here
 ```
 
-### Local Configuration
-1. Obtain a free Demo API key from [CoinGecko Developer Dashboard](https://www.coingecko.com/en/developers/dashboard).
-2. Create a `.env` file at the root of the project.
-3. Add your key as `VITE_COINGECKO_API_KEY=your_key_here`.
-4. Start your local development server using `npm run dev`.
+---
 
-### Vercel Deployment
-When deploying to Vercel, you must securely provide this key:
-1. Go to your project settings in the Vercel Dashboard.
-2. Navigate to **Environment Variables**.
-3. Add a new variable with the key `VITE_COINGECKO_API_KEY` and your actual API key as the value.
-4. Redeploy the project if you've already deployed it.
+## Local Development
 
-## API Used
+1. Create `.env`
+2. Add your CoinGecko API Key
+3. Run
 
-**CoinGecko API**
+```bash
+npm run dev
+```
+
+---
+
+## Vercel Deployment
+
+Project Settings
+
+↓
+
+Environment Variables
+
+↓
+
+Add
 
 ```
+VITE_COINGECKO_API_KEY
+```
+
+Redeploy.
+
+---
+
+# 🌍 API Used
+
+### CoinGecko API
+
+```http
 GET https://api.coingecko.com/api/v3/simple/price
-  ?ids=bitcoin,ethereum,solana,arbitrum,polygon-pos
-  &vs_currencies=usd
-  &include_24hr_change=true
-  &x_cg_demo_api_key=[YOUR_API_KEY]
 ```
 
-## Design Principles
+Parameters
 
-- **Digital Brutalist** — Thick 4px borders, flat colors, sharp corners, massive typography
-- **Editorial composition** — Large whitespace, strong grid, slight asymmetry
-- **High contrast** — Black (#111111) on cream (#F7F7F5) background
-- **Micro-interactions** — Hover lift, shadow movement, card rotation, scroll reveal
-- **Responsive** — Fully adaptive from mobile to desktop
+```
+ids=bitcoin,ethereum,solana,arbitrum,polygon-pos
 
-## Future Improvements
+vs_currencies=usd
 
-- Add more blockchain simulations (Merkle trees, consensus algorithms)
-- Implement wallet connection with MetaMask
-- Add gas fee calculator
-- Include historical price charts
-- Add dark mode toggle
-- Expand to more cryptocurrencies
-- Add unit and integration tests
-- Implement PWA capabilities
+include_24hr_change=true
+
+x_cg_demo_api_key=YOUR_API_KEY
+```
+
+---
+
+# 🎨 Design Language
+
+BLOCK ATLAS follows a **Modern Digital Brutalist** design philosophy.
+
+- Thick Borders
+- Flat Colors
+- Strong Shadows
+- Massive Typography
+- Editorial Layout
+- Responsive Design
+- Smooth Micro-interactions
+- Interactive Learning Experience
+
+---
+
+# 📚 What You'll Learn
+
+- Blockchain
+- Bitcoin
+- Ethereum
+- Smart Contracts
+- Layer 2
+- Arbitrum
+- SHA-256
+- Proof of Work
+- Nonce
+- Chain Immutability
+
+---
+
+# 🗺 Roadmap
+
+- [x] Interactive Landing Page
+- [x] Blockchain Concepts
+- [x] Live Crypto Dashboard
+- [x] Mining Simulator
+- [ ] Wallet Connection
+- [ ] MetaMask Integration
+- [ ] Historical Price Charts
+- [ ] Gas Fee Calculator
+- [ ] More Blockchain Simulations
+- [ ] Dark Mode
+- [ ] Progressive Web App
+- [ ] Unit Testing
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+
+2. Create a feature branch
+
+```bash
+git checkout -b feature/amazing-feature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add amazing feature"
+```
+
+4. Push
+
+```bash
+git push origin feature/amazing-feature
+```
+
+5. Open a Pull Request
+
+---
+
+# ⭐ Support
+
+If you found this project helpful,
+
+please consider giving it a ⭐ on GitHub.
+
+It really helps!
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+# 👨‍💻 Author
+
+## Sufiyan Shaikh
+
+Computer Science Student
+
+Full Stack Developer
+
+Web Enthusiast
+
+📧 Email
+
+your-email@example.com
+
+🌐 Portfolio
+
+https://your-portfolio.vercel.app
+
+💼 LinkedIn
+
+https://linkedin.com/in/YOUR_LINKEDIN
+
+🐙 GitHub
+
+https://github.com/YOUR_USERNAME
+
+---
+
+<div align="center">
+
+### 🚀 Built with React • Tailwind CSS • Vite • Web3
+
+**Made with ❤️ by Sufiyan Shaikh**
+
+⭐ Don't forget to star the repository if you enjoyed it!
+
+</div>
