@@ -430,7 +430,7 @@ https://portfolio-website-git-main-sufiyanshaikh1406-6639s-projects.vercel.app/
 
 💼 LinkedIn
 
-linkedin.com/in/sufiyan-shaikh-59670334b
+https://linkedin.com/in/sufiyan-shaikh-59670334b
 
 🐙 GitHub
 
