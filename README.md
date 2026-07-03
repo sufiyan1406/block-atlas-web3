@@ -112,7 +112,7 @@ Modify Block 1 and instantly observe Block 2 become invalid, demonstrating how b
 
 ## 🏠 Home
 
-![Home](./screenshots/home.png)
+![Home](https://cdn.corenexis.com/f/wFWVedSbsYR.png)
 
 ---
 
