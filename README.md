@@ -67,15 +67,38 @@ src/
 └── index.css             # Global styles & design tokens
 ```
 
+## Environment Variables
+
+This project requires a CoinGecko API key to fetch live cryptocurrency prices.
+Create a `.env` file in the root of the project (or copy from `.env.example`):
+
+```env
+VITE_COINGECKO_API_KEY=your_key_here
+```
+
+### Local Configuration
+1. Obtain a free Demo API key from [CoinGecko Developer Dashboard](https://www.coingecko.com/en/developers/dashboard).
+2. Create a `.env` file at the root of the project.
+3. Add your key as `VITE_COINGECKO_API_KEY=your_key_here`.
+4. Start your local development server using `npm run dev`.
+
+### Vercel Deployment
+When deploying to Vercel, you must securely provide this key:
+1. Go to your project settings in the Vercel Dashboard.
+2. Navigate to **Environment Variables**.
+3. Add a new variable with the key `VITE_COINGECKO_API_KEY` and your actual API key as the value.
+4. Redeploy the project if you've already deployed it.
+
 ## API Used
 
-**CoinGecko API** (Free tier, no API key required)
+**CoinGecko API**
 
 ```
 GET https://api.coingecko.com/api/v3/simple/price
   ?ids=bitcoin,ethereum,solana,arbitrum,polygon-pos
   &vs_currencies=usd
   &include_24hr_change=true
+  &x_cg_demo_api_key=[YOUR_API_KEY]
 ```
 
 ## Design Principles

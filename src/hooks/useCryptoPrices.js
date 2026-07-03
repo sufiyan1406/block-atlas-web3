@@ -1,9 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 
-const API_KEY = 'CG-vAfWK9y6pi9AJLy2wzveMq71'
-
 const API_URL =
-  `https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana,arbitrum,polygon-pos&vs_currencies=usd&include_24hr_change=true&x_cg_demo_api_key=${API_KEY}`
+  'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana,arbitrum,polygon-pos&vs_currencies=usd&include_24hr_change=true'
 
 /**
  * Hook that fetches live crypto prices from the CoinGecko API.
@@ -18,10 +16,19 @@ export function useCryptoPrices() {
   const fetchPrices = useCallback(async () => {
     setLoading(true)
     setError(null)
+
+    const apiKey = import.meta.env.VITE_COINGECKO_API_KEY
+    if (!apiKey) {
+      setError('API Key is missing. Please configure VITE_COINGECKO_API_KEY in your .env file.')
+      setLoading(false)
+      return
+    }
+
     try {
-      const response = await fetch(API_URL, {
+      const fetchUrl = `${API_URL}&x_cg_demo_api_key=${apiKey}`
+      const response = await fetch(fetchUrl, {
         headers: {
-          'x-cg-demo-api-key': API_KEY,
+          'x-cg-demo-api-key': apiKey,
         },
       })
       if (!response.ok) {
