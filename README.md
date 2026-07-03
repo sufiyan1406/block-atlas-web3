@@ -25,18 +25,17 @@
 
 # 🚀 BLOCK ATLAS
 
-### 🌍 Interactive Guide to Blockchain, Ethereum & Web3
+## 👉 **LIVE WEBSITE**
 
-<br>
+### **https://block-atlas-web3.vercel.app/**
 
 <a href="https://block-atlas-web3.vercel.app/">
-<img src="https://img.shields.io/badge/🚀%20TRY%20LIVE%20DEMO-CLICK%20HERE-success?style=for-the-badge&logo=vercel&logoColor=white">
+<img src="https://img.shields.io/badge/🚀%20OPEN%20LIVE%20PROJECT-CLICK%20HERE-ff1744?style=for-the-badge&logo=vercel&logoColor=white">
 </a>
-
-⭐ **Best viewed on Desktop**
 
 </div>
 
+---
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/YOUR_USERNAME/block-atlas)
 
 </div>
