@@ -422,19 +422,19 @@ Web Enthusiast
 
 📧 Email
 
-your-email@example.com
+sufiyanshaikh1406@gmail.com
 
 🌐 Portfolio
 
-https://your-portfolio.vercel.app
+https://portfolio-website-git-main-sufiyanshaikh1406-6639s-projects.vercel.app/
 
 💼 LinkedIn
 
-https://linkedin.com/in/YOUR_LINKEDIN
+linkedin.com/in/sufiyan-shaikh-59670334b
 
 🐙 GitHub
 
-https://github.com/YOUR_USERNAME
+https://github.com/sufiyan1406
 
 ---
 
