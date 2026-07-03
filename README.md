@@ -21,19 +21,23 @@
 
 <br>
 
-<div align="center">
+# 🚀 LIVE DEMO
 
-# 🚀 BLOCK ATLAS
+<h2 align="center">
+  <a href="https://block-atlas-web3.vercel.app/" target="_blank">
+    🌐 <strong>CLICK HERE TO EXPLORE BLOCK ATLAS</strong> 🌐
+  </a>
+</h2>
 
-## 👉 **LIVE WEBSITE**
+<p align="center">
+  <a href="https://block-atlas-web3.vercel.app/">
+    <img src="https://img.shields.io/badge/🚀%20LIVE%20DEMO-OPEN%20WEBSITE-ff4b4b?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+</p>
 
-### **https://block-atlas-web3.vercel.app/**
+---
 
-<a href="https://block-atlas-web3.vercel.app/">
-<img src="https://img.shields.io/badge/🚀%20OPEN%20LIVE%20PROJECT-CLICK%20HERE-ff1744?style=for-the-badge&logo=vercel&logoColor=white">
-</a>
-
-</div>
+# BLOCK ATLAS
 
 ---
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/YOUR_USERNAME/block-atlas)
