@@ -21,7 +21,7 @@
 
 <br>
 
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Website-blue?style=for-the-badge)](https://YOUR_VERCEL_LINK.vercel.app)
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Website-blue?style=for-the-badge)](https://block-atlas-web3.vercel.app/)
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/YOUR_USERNAME/block-atlas)
 
