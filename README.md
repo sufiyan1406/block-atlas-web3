@@ -40,7 +40,7 @@
 # BLOCK ATLAS
 
 ---
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/YOUR_USERNAME/block-atlas)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/sufiyan1406/block-atlas-web3)
 
 </div>
 
