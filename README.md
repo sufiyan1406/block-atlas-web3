@@ -129,35 +129,56 @@ Modify Block 1 and instantly observe Block 2 become invalid, demonstrating how b
 
 ## 🏠 Home
 
-![Home](https://cdn.corenexis.com/f/wFWVedSbsYR.png)
+<p align="center">
+  <img src="https://cdn.corenexis.com/f/Ulylv0x2dzn.png" width="48%" />
+  <img src="https://cdn.corenexis.com/f/uqGBIY8hU5E.png" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://cdn.corenexis.com/f/jsX2lUjEwO3.png" width="48%" />
+  <img src="https://cdn.corenexis.com/f/3kHVoKuwGOE.png" width="48%" />
+</p>
 
 ---
 
 ## 📚 Concepts
 
-![Concepts](./screenshots/concepts.png)
+<p align="center">
+  <img src="https://cdn.corenexis.com/f/xwdMCGniBpt.png" width="48%" />
+  <img src="https://cdn.corenexis.com/f/CBnbgTimCE5.png" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://cdn.corenexis.com/f/199D2BNtgjf.png" width="48%" />
+  <img src="https://cdn.corenexis.com/f/pspKRb7o03Y.png" width="48%" />
+</p>
 
 ---
 
-## 📈 Live Prices
+## 📈 Live Crypto Prices
 
-![Live Prices](./screenshots/prices.png)
-
----
-
-## ⛏️ Block Simulator
-
-![Simulator](./screenshots/simulator.png)
+<p align="center">
+  <img src="https://cdn.corenexis.com/f/hs5U0jlS8JB.png" width="48%" />
+  <img src="https://cdn.corenexis.com/f/V8N1Jippkf5.png" width="48%" />
+</p>
 
 ---
 
-# 🎥 Demo
+## ⛏️ Blockchain Simulator
 
-> Replace with your GIF later.
+<p align="center">
+  <img src="https://cdn.corenexis.com/f/j7Tap4b9u1e.png" width="48%" />
+  <img src="https://cdn.corenexis.com/f/7YFq71hUMbQ.png" width="48%" />
+</p>
 
-```text
-demo.gif
-```
+<p align="center">
+  <img src="https://cdn.corenexis.com/f/WvtUg5MgAuc.png" width="48%" />
+  <img src="https://cdn.corenexis.com/f/Z1oVCbW6SKY.png" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://cdn.corenexis.com/f/vcL8UV5ebci.png" width="70%" />
+</p>
 
 ---
 
